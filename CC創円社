@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>創円社</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<!-- library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <style>
+        body {
+            background: #deb887;
+            font-family: meiryo;
+        }
+        h1.title {
+            font-size: 70px;
+            color: #ff8c00;
+            background: #eee8aa;
+            text-align: center;
+            border: 10px solid #ffff00;
+            width: 900px;
+            margin: 30px auto;
+        }
+        div.menuBar {
+            background: #fdf5e6;
+            text-align: center;
+            border: 5px solid #cccccc;
+        }
+        div.main {
+            display: flex;
+        }
+        div.leftList {
+            background: #fdf5e6;
+            width: 350px;
+            border: 10px solid #cccccc;
+        }
+        div.task{
+            
+        }
+        div.Sentence {
+            display: inline;
+            background: #eee8aa;
+            width: 650px;
+            border: 1px solid #cccccc;
+        }
+        div.bottom {
+            background: #ffdead;
+            border: 10px solid #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+	<!-- Start your code here -->
+
+    <div class="superTitle">
+        <h1 class="title">創 円 社</h1>
+        <div class="menuBar"> <!--上のメニュー画面-->
+            <a href="https://creator.e-hcs.net/blog/">NEWS</a>
+            <a href="https://creator.e-hcs.net/blog/">SERVICE</a>
+            <a href="https://creator.e-hcs.net/blog/">RECRUIT</a>
+            <a href="https://creator.e-hcs.net/blog/">COMPANY</a>
+            <a href="https://creator.e-hcs.net/blog/">CONTACT</a>
+            <a href="https://creator.e-hcs.net/blog/">WordPress</a>
+        </div>
+    </div>
+        
+    <div class="main">
+        <div class="leftList"><!--左のリスト構造-->
+            <ul><div class="task">
+                <h2>他人の作品を見に行く人へ</h2>
+                <li>
+                    <a href="https://www.yahoo.co.jp/">Yahoo</a>
+                </li>
+                <li>
+                    <a href="https://www.google/.co.jp/">Google</a>
+                </li>
+            </div>
+
+            <div class="task">
+                <h2>自分の作品をアップしよう</h2>
+                <li>
+                    <a href="https://www.youtube.com/?gl=JP&hl=ja">Youtube</a>
+                </li>
+                <li>
+                    <a href="https://www.nicovideo.jp/">niconico動画</a>
+                </li>
+            </div>
+
+            <div class="task">
+                <h2>モノを作りたい人へ</h2>
+                <li>
+                     <a href="https://github.co.jp/">Github</a>
+                </li>
+                <li>
+                    <a href="https://qiita.com/">Qiita</a>
+                </li>
+            </div>
+
+            <div class="task">
+                <h2>就職活動で忙しい人へ</h2>
+                <li>
+                    <a href="https://supporterz.jp/">サポーターズ</a>
+                </li>
+                <li>
+                    <a href="https://codesprint.jp/">Code Sprint</a>
+                </li>
+            </div></ul>
+        </div>
+
+        <div class="Sentence"><!--本文-->
+            <ul>
+                <li>
+                    <h1>今日やったこと</h1>
+                    寧ろこの開発しかやってないです。
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="portal">
+            <h3>PORTAL</h3>
+            <ul>
+                <li>
+                    a
+                </li>
+                <li>
+                    a
+                </li>
+        
+                <li>
+                    a
+                </li>
+            </ul>
+        </div>
+
+        <div class="end">
+            <h2 class="logo">HCS クリエイターサークル</h2>
+            <h4>＊当社は架空の会社です。似た名前の会社とは何の接点も有りません。</h4>
+        </div>
+    </div>
+
+	<!-- End your code here -->
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
